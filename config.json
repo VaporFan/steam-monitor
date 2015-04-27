@@ -1,0 +1,9 @@
+{
+  "port" : 3000,
+  "mongoose": {
+    "uri": "mongodb://localhost/steam-monitor"
+  },
+  "key": "107A503E9D29CEBD62B4E42CCE2135C5",
+  "api": "http://api.steampowered.com",
+  "game": "570"
+}
