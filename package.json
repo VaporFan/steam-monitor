@@ -1,0 +1,24 @@
+{
+  "name": "steam-monitor",
+  "version": "1.0.0",
+  "description": "monitor for steam",
+  "main": "server.js",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/boslan/steam-monitor.git"
+  },
+  "author": "Bogdan Poslovsky",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/boslan/steam-monitor/issues"
+  },
+  "homepage": "https://github.com/boslan/steam-monitor",
+  "dependencies": {
+    "express": "^4.12.3"
+  }
+}

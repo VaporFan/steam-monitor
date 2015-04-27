@@ -1,0 +1,16 @@
+{
+  "name": "steam-monitor",
+  "version": "0.0.0",
+  "authors": [
+    "boslan <bogdan.poslovsky>"
+  ],
+  "description": "client app for monitor steam",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
