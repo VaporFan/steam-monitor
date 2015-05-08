@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/boslan/steam-monitor",
   "dependencies": {
+    "JSONStream": "^0.10.0",
     "body-parser": "^1.12.3",
     "express": "^4.12.3",
     "mongoose": "^4.0.2",

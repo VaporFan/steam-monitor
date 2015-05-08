@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table table-hover">
+            <thead>
+                <th>match id</th>
+                <th>match_seq_num</th>
+                <th>start_time</th>
+                <th>lobby_type</th>
+                <th>radiant_team_id</th>
+                <th>dire_team_id</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="match in matches" ui-sref="detailMatch({matchid: match.match_id})">
+                    <td>{{match.match_id}}</td>
+                    <td>{{match.match_seq_num}}</td>
+                    <td>{{decodeUnixTime(match.start_time)}}</td>
+                    <td>{{formatLobby(match.lobby_type)}}</td>
+                    <td>{{match.radiant_team_id}}</td>
+                    <td>{{match.dire_team_id}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>

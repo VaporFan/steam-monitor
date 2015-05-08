@@ -4,6 +4,10 @@
     "uri": "mongodb://localhost/steam-monitor"
   },
   "key": "107A503E9D29CEBD62B4E42CCE2135C5",
-  "api": "http://api.steampowered.com",
-  "game": "570"
+  "api": "api.steampowered.com",
+  "version": {
+    "1": "v0001",
+    "2": "v0002"
+  },
+  "lang": "en_us"
 }

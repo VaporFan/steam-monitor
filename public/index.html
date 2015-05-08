@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="sm">
+<head>
+    <meta charset="utf-8">
+    <title>Steam Monitor</title>
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<div class="container">
+    <nav class="navbar navbar-default">
+        <ul class="nav navbar-nav">
+            <li><a href="#/matches">matches</a></li>
+        </ul>
+    </nav>
+    <div ui-view></div>
+</div>
+
+<script src="bower_components/angularjs/angular.js"></script>
+<script src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+<script src="js/views/matches/matches.js"></script>
+<script src="js/views/matches/detailMatch.js"></script>
+<script src="js/services/GameObjectsService.js"></script>
+<script src="js/services/MatchesService.js"></script>
+<script src="js/app.js"></script>
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+</html>

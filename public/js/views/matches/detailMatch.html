@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<div class="row">
+    <div class="col-md-12">
+        <table class="table">
+            <thead>
+                <th>account_id</th>
+                <th>player_slot</th>
+                <th>hero_id</th>
+            </thead>
+            <tbody>
+                <tr ng-repeat="player in match.players">
+                    <td>{{player.account_id}}</td>
+                    <td>{{player.player_slot}}</td>
+                    <td>{{getHeroName(player.hero_id)}}</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
